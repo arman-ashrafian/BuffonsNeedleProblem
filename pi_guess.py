@@ -23,7 +23,7 @@ def main():
         # end point 2
         x2 = randomX + 100*math.cos(math.radians(randomAngle))
 
-        # check if dropped stick hits any lines
+        # check if needle hits any lines
         for x in lines_x:
             if x2 > x and randomX < x:
                 hits += 1
