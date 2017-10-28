@@ -5,7 +5,7 @@ import math, random, time
 
 def main():
     # number of sticks to drop
-    ITERATIONS = 100000
+    ITERATIONS = 10000000
 
     # seed random number generator
     random.seed(time.time())
